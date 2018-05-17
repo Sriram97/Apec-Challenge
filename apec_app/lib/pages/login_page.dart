@@ -26,11 +26,12 @@ class _LoginPageState extends State<LoginPage> {
     final email = new TextFormField(
       keyboardType: TextInputType.emailAddress,
       autofocus: false,
+      /*
       onFieldSubmitted: (String str){
         setState(() {
           emailString = str;
                 });
-      },
+      },*/
       initialValue: 'alucard@gmail.com',
       decoration: InputDecoration(
         hintText: 'Email',
