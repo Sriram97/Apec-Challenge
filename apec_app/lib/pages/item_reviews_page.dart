@@ -31,7 +31,7 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
                   alignment: Alignment.center,
                   children: <Widget>
                   [
-                    new Image.asset('res/shoes1.png'),
+                    new Image.asset('res/shoes1.jpg'),
                     new Container(color: Colors.black26)
                   ],
                 ),
