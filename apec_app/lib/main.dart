@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget
       routes: <String, WidgetBuilder>{
         '/Home':(BuildContext context) => new MainPage(),
         '/Login':(BuildContext context) => new LoginPage(),
-        '/User':(BuildContext conetxt) => new MenuPager(),
+        '/User':(BuildContext conetxt) => new MenuHomePage(),
       },
       home: new LoginPage(),
     );

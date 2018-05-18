@@ -1,3 +1,5 @@
+library apec_app.model.food;
+
 
 class Food {
 
