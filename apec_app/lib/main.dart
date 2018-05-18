@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'pages/pager.dart';
 import 'pages/main_page.dart';
 import 'pages/login_page.dart';
+import 'pages/ImagePickerPage.dart';
+
 
 void main() => runApp(new MyApp());
 
@@ -18,7 +20,8 @@ class MyApp extends StatelessWidget
       routes: <String, WidgetBuilder>{
         '/Home':(BuildContext context) => new MainPage(),
         '/Login':(BuildContext context) => new LoginPage(),
-        '/User':(BuildContext conetxt) => new MenuHomePage(),
+        '/User':(BuildContext context) => new MenuHomePage(),
+        '/Image1':(BuildContext context) => new ImageApp(),
       },
       home: new LoginPage(),
     );
@@ -44,3 +47,18 @@ class MenuHomePage extends StatelessWidget {
     );
   }
 }
+
+class ImageApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      body: new Stack(
+        alignment: AlignmentDirectional.topEnd,
+        children: <Widget>[
+          new ImagePickerPage(),
+        ],
+      ),
+    );
+  }
+}
+

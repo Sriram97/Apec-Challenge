@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'item_reviews_page.dart';
+import 'package:apec_app/image_picker.dart';
+import 'ImagePickerPage.dart';
+
 
 class ShopItemsPage extends StatefulWidget
 {
@@ -59,7 +62,9 @@ class _ShopItemsPageState extends State<ShopItemsPage>
               borderRadius: new BorderRadius.circular(32.0),
               child: new InkWell
               (
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(new MaterialPageRoute(builder: (_) => new ImagePickerPage()));
+                },
                 child: new Padding
                 (
                   padding: new EdgeInsets.all(12.0),
