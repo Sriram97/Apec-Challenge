@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'main_page.dart';
+import 'package:apec_app/sytody_app.dart';
 
 class LoginPage extends StatefulWidget {
   static String tag = 'login-page';
@@ -75,6 +76,27 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
 
+        final voiceloginButton = Padding(
+      padding: EdgeInsets.symmetric(vertical: 16.0),
+      child: Material(
+        borderRadius: BorderRadius.circular(30.0),
+        shadowColor: Colors.lightBlueAccent.shade100,
+        elevation: 5.0,
+        child: MaterialButton(
+          minWidth: 200.0,
+          height: 42.0,
+          onPressed: () {
+            //Navigator.of(context).pushNamed('/User');
+          
+              Navigator.of(context).push(new MaterialPageRoute(builder: (_) => new SytodyApp()));
+            
+          },
+          color: Colors.lightBlueAccent,
+          child: Text('Voice Log In', style: TextStyle(color: Colors.white)),
+        ),
+      ),
+    );
+
     final forgotLabel = FlatButton(
       child: Text(
         'Forgot password?',
@@ -97,7 +119,9 @@ class _LoginPageState extends State<LoginPage> {
             password,
             SizedBox(height: 24.0),
             loginButton,
-            forgotLabel
+            voiceloginButton,
+            forgotLabel,
+            
           ],
         ),
       ),
