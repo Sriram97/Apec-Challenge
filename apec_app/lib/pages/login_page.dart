@@ -23,16 +23,17 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
 
+
     final email = new TextFormField(
       keyboardType: TextInputType.emailAddress,
       autofocus: false,
-      /*
+      
       onFieldSubmitted: (String str){
         setState(() {
           emailString = str;
                 });
-      },*/
-      initialValue: 'alucard@gmail.com',
+      },
+      initialValue: 'user@gmail.com',
       decoration: InputDecoration(
         hintText: 'Email',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
@@ -61,7 +62,7 @@ class _LoginPageState extends State<LoginPage> {
           minWidth: 200.0,
           height: 42.0,
           onPressed: () {
-            Navigator.of(context).pushNamed('/Home');
+            //Navigator.of(context).pushNamed('/User');
             if (emailString=="user@gmail.com") {
               Navigator.of(context).pushNamed('/User');
             } else if(emailString=="seller@gmail.com") {
