@@ -1,4 +1,4 @@
-package com.example.apecapp;
+package bz.rxla.flutter.apecapp;
 
 import android.os.Bundle;
 
@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public class MainActivity extends FlutterActivity implements RecognitionListener {
-    private static final String SPEECH_CHANNEL = "com.example/recognizer";
+    private static final String SPEECH_CHANNEL = "bz.rxla.flutter/recognizer";
     private static final String LOG_TAG = "SYTODY";
     private SpeechRecognizer speech;
     private MethodChannel speechChannel;

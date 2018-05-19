@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 const MethodChannel _speech_channel =
-    const MethodChannel("com.example/recognizer"); 
+    const MethodChannel("bz.rxla.flutter/recognizer"); 
 
 class SpeechRecognizer {
   static void setMethodCallHandler(handler) {
