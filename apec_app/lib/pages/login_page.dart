@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
     );
 
 
-    final email = new TextFormField(
+    final email = TextFormField(
       keyboardType: TextInputType.emailAddress,
       autofocus: false,
       
@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
 
-    final password = new TextFormField(
+    final password = TextFormField(
       autofocus: false,
       initialValue: 'some password',
       obscureText: true,
