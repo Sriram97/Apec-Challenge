@@ -17,7 +17,7 @@ class SytodyAppState extends State<SytodyApp> {
         appBar: new AppBar(
           title: new Row(children: [
             new Image.asset('assets/sytody.png', fit: BoxFit.fitHeight),
-            new Text('Sytôdy'),
+            new Text('User Login'),
           ]),
           backgroundColor: Colors.blueGrey,
           actions: [
@@ -27,8 +27,12 @@ class SytodyAppState extends State<SytodyApp> {
             )
           ]),
         body: new TranscriptorWidget(lang: selectedLang),
+
+        
       ));
   }
+
+
 
   List<CheckedPopupMenuItem<Language>> get _buildLanguagesWidgets => languages
     .map((l) => new CheckedPopupMenuItem<Language>(

@@ -6,6 +6,7 @@ import 'pages/login_page.dart';
 import 'pages/ImagePickerPage.dart';
 import 'package:apec_app/ui/friends/friends_list_page.dart';
 
+
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget
         '/Login':(BuildContext context) => new LoginPage(),
         '/User':(BuildContext context) => new MenuHomePage(),
         '/Image1':(BuildContext context) => new ImageApp(),
+        
       },
       home: new LoginPage(),
     );
