@@ -26,7 +26,7 @@ class CustomAppBar extends StatelessWidget {
               ),
               new Expanded(
                 child: new Text(
-                    'MENU',
+                    'BILUM',
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                         fontSize: 21.0,
