@@ -31,7 +31,7 @@ class Friend {
       avatar: map['picture']['large'],
       name: '${_capitalize(name['first'])} ${_capitalize(name['last'])}',
       email: map['email'],
-      location: _capitalize(map['location']['state']),
+      location: "Papua New Guinea",
     );
   }
 

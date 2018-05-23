@@ -68,9 +68,9 @@ class FriendDetailHeader extends StatelessWidget {
       ),
       child: new Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: <Widget>[
-          _createPillButton(
-            'HIRE ME FOR SPECIAL BILUM',
+        children: <Widget>[new Column(
+          children: <Widget>[_createPillButton(
+            'Hire Me For Special Bilum',
             backgroundColor: theme.accentColor,
           ),
           new DecoratedBox(
@@ -79,10 +79,12 @@ class FriendDetailHeader extends StatelessWidget {
               borderRadius: new BorderRadius.circular(30.0),
             ),
             child: _createPillButton(
-              'FOLLOW ME',
+              'Follow Me for more Info',
               textColor: Colors.white70,
             ),
-          ),
+          ),],
+        )
+          
         ],
       ),
     );
