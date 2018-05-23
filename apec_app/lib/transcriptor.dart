@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:apec_app/languages.dart';
 import 'package:apec_app/recognizer.dart';
 import 'package:apec_app/task.dart';
+import 'package:apec_app/pages/ImagePickerPage.dart';
 
 class TranscriptorWidget extends StatefulWidget {
   final Language lang;
@@ -45,11 +46,14 @@ class _TranscriptorAppState extends State<TranscriptorWidget> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
+    
 
     List<Widget> blocks = [
+      new Text(('What is your name?'),
+      style: TextStyle(color: Colors.black54, fontSize: 32.0)),
       new Expanded(
           flex: 2,
-          child: new ListView(
+          child:  new ListView(
               children: incompleteTasks
                   .map((t) => _buildTaskWidgets(
                       task: t,
@@ -76,6 +80,7 @@ class _TranscriptorAppState extends State<TranscriptorWidget> {
           taskId: new DateTime.now().millisecondsSinceEpoch,
           label: transcription));
       transcription = '';
+      Navigator.of(context).push(new MaterialPageRoute(builder: (_) => new ImagePickerPage()));
     });
     _cancelRecognitionHandler();
   }
