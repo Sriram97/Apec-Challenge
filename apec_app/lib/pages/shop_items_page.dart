@@ -146,7 +146,7 @@ class ShopItem extends StatelessWidget
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>
                                 [
-                                  new Text('Nike Jordan III', style: new TextStyle(color: Colors.blueAccent)),
+                                  new Text('Bilum Kaminimbit', style: new TextStyle(color: Colors.blueAccent)),
                                   new Row
                                   (
                                     mainAxisAlignment: MainAxisAlignment.start,
@@ -210,7 +210,7 @@ class ShopItem extends StatelessWidget
                           elevation: 20.0,
                           shadowColor: new Color(0x802196F3),
                           shape: new CircleBorder(),
-                          child: new Image.asset('res/shoes1.jpg'),
+                          child: new Image.asset('assets/images/menu1.png'),
                         ),
                       ),
                     ),
@@ -254,8 +254,8 @@ class ShopItem extends StatelessWidget
                       backgroundColor: Colors.purple,
                       child: new Text('AI'),
                     ),
-                    title: new Text('Ivascu Adrian ★★★★★', style: new TextStyle()),
-                    subtitle: new Text('The shoes were shipped one day before the shipping date, but this wasn\'t at all a problem :). The shoes are very comfortable and good looking', maxLines: 2, overflow: TextOverflow.ellipsis, style: new TextStyle()),
+                    title: new Text('Lokman ★★★★★', style: new TextStyle()),
+                    subtitle: new Text('The bilums were shipped one day before the shipping date, but this wasn\'t at all a problem :). The bilums are very comfortable and good looking', maxLines: 2, overflow: TextOverflow.ellipsis, style: new TextStyle()),
                   ),
                 ),
               ),
@@ -326,7 +326,7 @@ class BadShopItem extends StatelessWidget
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>
                                 [
-                                  new Text('Nike Jordan III', style: new TextStyle(color: Colors.white)),
+                                  new Text('Bilum Kaminimbit', style: new TextStyle(color: Colors.white)),
                                   new Row
                                   (
                                     mainAxisAlignment: MainAxisAlignment.start,
@@ -390,7 +390,7 @@ class BadShopItem extends StatelessWidget
                           elevation: 20.0,
                           shadowColor: new Color(0x802196F3),
                           shape: new CircleBorder(),
-                          child: new Image.asset('res/shoes1.jpg'),
+                          child: new Image.asset('assets/images/menu1.png'),
                         ),
                       ),
                     ),
@@ -423,8 +423,8 @@ class BadShopItem extends StatelessWidget
                     backgroundColor: Colors.purple,
                     child: new Text('AI'),
                   ),
-                  title: new Text('Ivascu Adrian ★☆☆☆☆'),
-                  subtitle: new Text('The shoes that arrived weren\'t the same as the ones in the image...', maxLines: 2, overflow: TextOverflow.ellipsis),
+                  title: new Text('Lokman ★☆☆☆☆'),
+                  subtitle: new Text('The bilums that arrived weren\'t the same as the ones in the image...', maxLines: 2, overflow: TextOverflow.ellipsis),
                 ),
               ),
             ),
@@ -480,7 +480,7 @@ class NewShopItem extends StatelessWidget
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>
                           [
-                            new Text('[New] Nike Jordan III', style: new TextStyle(color: Colors.blueAccent)),
+                            new Text('[New] Bilum Karkar', style: new TextStyle(color: Colors.blueAccent)),
                             new Row
                             (
                               mainAxisAlignment: MainAxisAlignment.start,
@@ -542,7 +542,7 @@ class NewShopItem extends StatelessWidget
                       elevation: 20.0,
                       shadowColor: new Color(0x802196F3),
                       shape: new CircleBorder(),
-                      child: new Image.asset('res/shoes1.jpg'),
+                      child: new Image.asset('assets/images/menu1.png'),
                     ),
                   ),
                 ),

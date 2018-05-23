@@ -23,7 +23,7 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
             backgroundColor: Colors.red,
             flexibleSpace: new FlexibleSpaceBar
             (
-              title: new Text('Nike Jordan Air III'),
+              title: new Text('Bilum Kaminimbit'),
               background: new SizedBox.expand
               (
                 child: new Stack
@@ -31,7 +31,7 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
                   alignment: Alignment.center,
                   children: <Widget>
                   [
-                    new Image.asset('res/shoes1.jpg'),
+                    new Image.asset('assets/images/menu1.png'),
                     new Container(color: Colors.black26)
                   ],
                 ),
@@ -308,8 +308,8 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
                             backgroundColor: Colors.purple,
                             child: new Text('AI'),
                           ),
-                          title: new Text('Ivascu Adrian ★★★★★', style: new TextStyle()),
-                          subtitle: new Text('The shoes were shipped one day before the shipping date, but this wasn\'t at all a problem :). The shoes are very comfortable and good looking.', style: new TextStyle()),
+                          title: new Text('Lokman ★★★★★', style: new TextStyle()),
+                          subtitle: new Text('The bilums were shipped one day before the shipping date, but this wasn\'t at all a problem :). The bilums are very comfortable and good looking.', style: new TextStyle()),
                         ),
                       ),
                     ),
@@ -376,8 +376,8 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
                                 backgroundColor: Colors.purple,
                                 child: new Text('AI'),
                               ),
-                              title: new Text('Ivascu Adrian ★★★★★', style: new TextStyle()),
-                              subtitle: new Text('The shoes were shipped one day before the shipping date, but this wasn\'t at all a problem :). The shoes are very comfortable and good looking', style: new TextStyle()),
+                              title: new Text('Lokman ★★★★★', style: new TextStyle()),
+                              subtitle: new Text('The bilums were shipped one day before the shipping date, but this wasn\'t at all a problem :). The bilums are very comfortable and good looking', style: new TextStyle()),
                             ),
                           ),
                           new Padding
@@ -428,8 +428,8 @@ class _ItemReviewsPageState extends State<ItemReviewsPage>
                                 backgroundColor: Colors.purple,
                                 child: new Text('AI'),
                               ),
-                              title: new Text('Ivascu Adrian ★★★★★', style: new TextStyle()),
-                              subtitle: new Text('The shoes were shipped one day before the shipping date, but this wasn\'t at all a problem :). The shoes are very comfortable and good looking', style: new TextStyle()),
+                              title: new Text('Lokman ★★★★★', style: new TextStyle()),
+                              subtitle: new Text('The bilums were shipped one day before the shipping date, but this wasn\'t at all a problem :). The bilums are very comfortable and good looking', style: new TextStyle()),
                             ),
                           ),
                           new Padding
